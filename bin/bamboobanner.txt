@@ -1,0 +1,4 @@
+
+Bamboo Standalone Edition
+   Version : 5.8.1
+                  

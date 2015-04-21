@@ -1,0 +1,8 @@
+[#-- @ftlvariable name="pluginModuleConfigurationPrefix" type="java.lang.String" --]
+[@s.textfield key='elastic.configure.aws.field.accessKeyId' name=pluginModuleConfigurationPrefix+':accessKeyId'/]
+[@s.checkbox key='elastic.configure.aws.field.secretAccessKey.change' toggle='true' name=pluginModuleConfigurationPrefix+':awsSecretAccessKeyChange' /]
+[@ui.bambooSection dependsOn=pluginModuleConfigurationPrefix+':awsSecretAccessKeyChange' showOn='true']
+    [@s.password key='elastic.configure.aws.field.secretAccessKey' name=pluginModuleConfigurationPrefix+':secretAccessKey'/]
+[/@ui.bambooSection]
+[@s.textfield key='elastic.configure.field.bucketName' name=pluginModuleConfigurationPrefix+':bucketName'/]
+[@s.textfield key='elastic.configure.field.bucketPath' name=pluginModuleConfigurationPrefix+':bucketPath'/]

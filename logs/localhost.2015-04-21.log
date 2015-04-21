@@ -1,0 +1,6 @@
+Apr 21, 2015 2:28:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Apr 21, 2015 2:28:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+Apr 21, 2015 2:28:47 PM org.apache.catalina.core.ApplicationContext log
+INFO:  [CompressingFilter/1.4] CompressingFilter has initialized

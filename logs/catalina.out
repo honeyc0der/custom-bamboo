@@ -1,0 +1,213 @@
+Apr 21, 2015 2:28:35 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Apr 21, 2015 2:28:35 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8085"]
+Apr 21, 2015 2:28:35 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 537 ms
+Apr 21, 2015 2:28:35 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 21, 2015 2:28:35 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.40
+2015-04-21 14:28:44,584 INFO [localhost-startStop-1] [lifecycle] *******************************
+2015-04-21 14:28:44,585 INFO [localhost-startStop-1] [lifecycle] *   Bamboo is starting up     *
+2015-04-21 14:28:44,585 INFO [localhost-startStop-1] [lifecycle] *******************************
+2015-04-21 14:28:44,585 INFO [localhost-startStop-1] [ServletContextHolder] Setting servlet context: Bamboo
+2015-04-21 14:28:44,620 INFO [localhost-startStop-1] [lifecycle] atlassian.org.osgi.framework.bootdelegation set to javax.servlet,javax.servlet.*,sun.*,com.sun.*,org.w3c.dom.*,org.apache.xerces.*
+2015-04-21 14:28:45,471 INFO [localhost-startStop-1] [lifecycle] Starting Bamboo 5.8.1 (build #5866 Tue Mar 17 08:47:53 IST 2015) using Java 1.7.0_67 from Oracle Corporation
+2015-04-21 14:28:45,472 INFO [localhost-startStop-1] [lifecycle] Real path of servlet context: /home/honey/Downloads/atlassian-bamboo-5.8.1/atlassian-bamboo
+2015-04-21 14:28:45,556 INFO [localhost-startStop-1] [lifecycle] Using bamboo.home: /home/honey/bamboo-home
+2015-04-21 14:28:45,565 INFO [localhost-startStop-1] [UpgradeLauncher] UpgradeLauncher not performed since the application has not been setup yet.
+2015-04-21 14:28:45,570 INFO [localhost-startStop-1] [AccessLogFilter] AccessLogFilter initialized. Format is: <user> <url> <starting memory free (kb)> +- <difference in free mem (kb)> <query time (ms)>
+2015-04-21 14:28:45,829 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts-default.xml]
+2015-04-21 14:28:45,896 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts-plugin.xml]
+2015-04-21 14:28:46,201 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts.xml]
+2015-04-21 14:28:46,213 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (springObjectFactoryProxy) for (com.opensymphony.xwork2.ObjectFactory)
+2015-04-21 14:28:46,213 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-04-21 14:28:46,213 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-04-21 14:28:46,213 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-04-21 14:28:46,214 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-04-21 14:28:46,214 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-04-21 14:28:46,214 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-04-21 14:28:46,214 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-04-21 14:28:46,214 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-04-21 14:28:46,214 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-04-21 14:28:46,214 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-04-21 14:28:46,214 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-04-21 14:28:46,214 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-04-21 14:28:46,215 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-04-21 14:28:46,215 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-04-21 14:28:46,215 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-04-21 14:28:46,215 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-04-21 14:28:46,215 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-04-21 14:28:46,215 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-04-21 14:28:46,215 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-04-21 14:28:46,215 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-04-21 14:28:46,215 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-04-21 14:28:46,215 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-04-21 14:28:46,216 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-04-21 14:28:46,218 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.views.velocity.VelocityManager)
+2015-04-21 14:28:46,219 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-04-21 14:28:46,219 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-04-21 14:28:46,219 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-04-21 14:28:46,219 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-04-21 14:28:46,219 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-04-21 14:28:46,219 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-04-21 14:28:46,219 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-04-21 14:28:46,219 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-04-21 14:28:46,219 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-04-21 14:28:46,220 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-04-21 14:28:46,220 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [com.atlassian.bamboo.ww2.BambooActionSupport]
+2015-04-21 14:28:46,220 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [help-paths]
+2015-04-21 14:28:46,220 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [help-internal]
+2015-04-21 14:28:46,245 INFO [localhost-startStop-1] [SpringObjectFactoryProxy] Deferring initialisation of com.atlassian.bamboo.plugin.xwork.SpringObjectFactoryProxy
+2015-04-21 14:28:46,272 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:46,272 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:46,273 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:46,273 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:47,056 INFO [localhost-startStop-1] [Dispatchers] Dispatcher org.apache.struts2.dispatcher.Dispatcher initialised
+2015-04-21 14:28:47,087 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts-default.xml]
+2015-04-21 14:28:47,092 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts-plugin.xml]
+2015-04-21 14:28:47,261 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts.xml]
+2015-04-21 14:28:47,263 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (springObjectFactoryProxy) for (com.opensymphony.xwork2.ObjectFactory)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-04-21 14:28:47,264 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-04-21 14:28:47,265 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-04-21 14:28:47,265 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-04-21 14:28:47,265 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-04-21 14:28:47,265 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-04-21 14:28:47,265 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-04-21 14:28:47,265 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-04-21 14:28:47,265 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-04-21 14:28:47,265 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-04-21 14:28:47,265 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.views.velocity.VelocityManager)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-04-21 14:28:47,267 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-04-21 14:28:47,268 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [com.atlassian.bamboo.ww2.BambooActionSupport]
+2015-04-21 14:28:47,268 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [help-paths]
+2015-04-21 14:28:47,268 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [help-internal]
+2015-04-21 14:28:47,271 INFO [localhost-startStop-1] [SpringObjectFactoryProxy] Deferring initialisation of com.atlassian.bamboo.plugin.xwork.SpringObjectFactoryProxy
+2015-04-21 14:28:47,285 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:47,285 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:47,285 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:47,285 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:47,572 INFO [localhost-startStop-1] [HttpExpiryFilter] HttpExpiryFilter initialized.
+2015-04-21 14:28:47,658 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts-default.xml]
+2015-04-21 14:28:47,665 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts-plugin.xml]
+2015-04-21 14:28:47,762 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts.xml]
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (springObjectFactoryProxy) for (com.opensymphony.xwork2.ObjectFactory)
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-04-21 14:28:47,764 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-04-21 14:28:47,765 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.views.velocity.VelocityManager)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-04-21 14:28:47,766 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [com.atlassian.bamboo.ww2.BambooActionSupport]
+2015-04-21 14:28:47,767 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [help-paths]
+2015-04-21 14:28:47,767 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [help-internal]
+2015-04-21 14:28:47,769 INFO [localhost-startStop-1] [SpringObjectFactoryProxy] Deferring initialisation of com.atlassian.bamboo.plugin.xwork.SpringObjectFactoryProxy
+2015-04-21 14:28:47,778 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:47,778 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:47,778 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:47,778 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:47,944 INFO [localhost-startStop-1] [Dispatchers] Dispatcher org.apache.struts2.dispatcher.Dispatcher initialised
+2015-04-21 14:28:47,976 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts-default.xml]
+2015-04-21 14:28:47,983 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts-plugin.xml]
+2015-04-21 14:28:48,052 INFO [localhost-startStop-1] [XmlConfigurationProvider] Parsing configuration file [struts.xml]
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (springObjectFactoryProxy) for (com.opensymphony.xwork2.ObjectFactory)
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-04-21 14:28:48,053 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-04-21 14:28:48,054 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-04-21 14:28:48,055 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.views.velocity.VelocityManager)
+2015-04-21 14:28:48,055 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-04-21 14:28:48,055 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-04-21 14:28:48,055 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-04-21 14:28:48,055 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-04-21 14:28:48,055 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-04-21 14:28:48,055 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-04-21 14:28:48,055 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-04-21 14:28:48,056 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-04-21 14:28:48,056 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-04-21 14:28:48,056 INFO [localhost-startStop-1] [AbstractBeanSelectionProvider] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-04-21 14:28:48,056 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [com.atlassian.bamboo.ww2.BambooActionSupport]
+2015-04-21 14:28:48,056 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [help-paths]
+2015-04-21 14:28:48,056 INFO [localhost-startStop-1] [DefaultBeanSelectionProvider] Loading global messages from [help-internal]
+2015-04-21 14:28:48,058 INFO [localhost-startStop-1] [SpringObjectFactoryProxy] Deferring initialisation of com.atlassian.bamboo.plugin.xwork.SpringObjectFactoryProxy
+2015-04-21 14:28:48,067 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:48,067 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:48,067 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+2015-04-21 14:28:48,067 INFO [localhost-startStop-1] [BambooFreemarkerManager] Setting encoding to UTF-8
+Apr 21, 2015 2:28:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8085"]
+Apr 21, 2015 2:28:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 13068 ms
+2015-04-21 14:28:48,502 INFO [http-bio-8085-exec-1] [AccessLogFilter] 0:0:0:0:0:0:0:1 GET http://localhost:8085/setup/setupLicense.action 96374kb
+2015-04-21 14:29:03,580 INFO [http-bio-8085-exec-24] [AccessLogFilter] 0:0:0:0:0:0:0:1 GET http://localhost:8085/setup/setupLicense.action 132858kb
